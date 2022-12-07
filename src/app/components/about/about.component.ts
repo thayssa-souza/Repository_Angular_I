@@ -9,7 +9,7 @@ import { AboutSectionData } from 'src/models/about-section-data.model';
 export class AboutComponent implements OnInit {
   @Input() public aboutData!: AboutSectionData;
   @Output() public elementCreated: EventEmitter<string> = new EventEmitter<string>();
-  
+
   constructor() {}
 
   ngOnInit() {
