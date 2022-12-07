@@ -11,8 +11,8 @@ export class ContactComponent implements OnInit {
 
   public btnDisabled = true;
   public formData: ContactFormData = {
-    email: "teste@teste.com",
-    message: "Hello world!"
+    email: "",
+    message: ""
   };
 
   constructor() { }
